@@ -144,7 +144,7 @@ app.post('/users/login', (req, res) => {
     });
 });
 
-app.post('/auth', (req, res) => {
+app.post('auth', (req, res) => {
   const body = req.body;
   const {accessToken} = body;
 
